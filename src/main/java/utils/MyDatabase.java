@@ -22,7 +22,7 @@ public class MyDatabase {
     }
 
     public static MyDatabase getInstance() {
-        if(instance == null)
+        if (instance == null)
             instance = new MyDatabase();
         return instance;
     }
